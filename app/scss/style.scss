@@ -1,8 +1,11 @@
+// Support css files
 @import "variables";
 @import "mixins";
 @import "animations";
 
 @import "globals";
+
+// Components page
 @import "header";
 @import "hero";
 @import "feature";
