@@ -17,8 +17,8 @@
       height: 2px;
       background: $darkblue;
 
-      transform-origin: left center;
-      transition: all $speed-header-el font-size;
+      transition: all $speed-header-el ease-in-out;
+      transform-origin: 3px 1px;
       &:not(:last-child) {
         margin-bottom: 5px;
       }
